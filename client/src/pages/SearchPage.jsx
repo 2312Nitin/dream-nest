@@ -17,7 +17,7 @@ const SearchPage = () => {
 
   const getSearchListings = async () => {
     try {
-      const response = await fetch(`https://dream-nest-1-ambh.onrender.comproperties/search/${search}`, {
+      const response = await fetch(`https://dream-nest-1-ambh.onrender.com/properties/search/${search}`, {
         method: "GET"
       })
 
